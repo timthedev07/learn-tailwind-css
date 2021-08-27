@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
 import { Breakpoints } from "../components/Breakpoints";
-import { Buttons } from "../components/Buttons";
+import { States } from "../components/States";
 
 const Home: NextPage = () => {
   return (
     <main className="container min-h-screen bg-black min-w-full">
-      <Buttons />
+      <States />
       <Breakpoints />
     </main>
   );
