@@ -9,7 +9,7 @@ module.exports = {
       backgroundColor: (theme) => ({
         ...theme("colors"),
         cyan: "#288fc9",
-        cyanHover: "#3092cb",
+        cyanHover: "#4fb7f7",
       }),
     },
   },
