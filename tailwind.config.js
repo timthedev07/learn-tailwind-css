@@ -8,7 +8,7 @@ module.exports = {
       },
       backgroundColor: (theme) => ({
         ...theme("colors"),
-        cyan: "#429fd4",
+        cyan: "#0592e3",
         cyanHover: "#4fb7f7",
         cyanActive: "#2371a1",
         cyanElementBackdrop: "#b8cdd9",
