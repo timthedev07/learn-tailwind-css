@@ -1,8 +1,8 @@
 import { FC } from "react";
 export const Buttons: FC = () => {
-  const baseButtonClassName = "bg-cyan text-white w-28 h-10 rounded";
+  const baseButtonClassName = "bg-cyan text-white w-auto px-4 h-10 rounded";
   return (
-    <section className="flex justify-around items-center h-96 flex-col">
+    <section className=" bg-cyanElementBackdrop flex justify-around items-center h-96 flex-col">
       {/* plain button with background */}
       <button className={baseButtonClassName}>I have nothing</button>
 
@@ -19,6 +19,11 @@ export const Buttons: FC = () => {
       </button>
 
       {/* button with active state */}
+      <button className={`${baseButtonClassName} active:bg-cyanActive`}>
+        Click and hold
+      </button>
+
+      {/* disabled button */}
       <button className={`${baseButtonClassName} active:bg-cyanActive`}>
         Click and hold
       </button>
