@@ -20,7 +20,7 @@ export const Buttons: FC = () => {
 
       {/* button with active state */}
       <button className={`${baseButtonClassName} active:bg-cyanActive`}>
-        Click me and hold
+        Click and hold
       </button>
     </section>
   );
