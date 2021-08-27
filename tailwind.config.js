@@ -10,11 +10,14 @@ module.exports = {
         ...theme("colors"),
         cyan: "#288fc9",
         cyanHover: "#4fb7f7",
+        cyanHover: "#2371a1",
       }),
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ["active"],
+    },
   },
   plugins: [],
 };
