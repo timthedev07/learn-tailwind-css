@@ -11,7 +11,7 @@ module.exports = {
         cyan: "#288fc9",
         cyanHover: "#4fb7f7",
         cyanActive: "#2371a1",
-        cyanElementBackdrop: "#a5cee6",
+        cyanElementBackdrop: "#b8cdd9",
       }),
     },
   },
