@@ -1,11 +1,19 @@
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "media",
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        black: "#202020",
+      },
+      backgroundColor: (theme) => ({
+        ...theme("colors"),
+        cyan: "#288fc9",
+      }),
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};
