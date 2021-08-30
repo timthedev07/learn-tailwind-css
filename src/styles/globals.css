@@ -4,6 +4,21 @@
 
 @layer components {
   .btn {
+    /*use apply to include utility css classes*/
     @apply bg-cyan text-white w-auto px-4 h-10 rounded;
+  }
+}
+
+@screen md {
+  body {
+    background-color: #101010 !important;
+    padding-bottom: 500px;
+  }
+}
+
+@screen lg {
+  body {
+    background-color: #505050 !important;
+    padding-bottom: 500px;
   }
 }
