@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import { Breakpoints } from "../components/Breakpoints";
 import { States } from "../components/States";
 import { Transitions } from "../components/Transitions";
+import { Animations } from "../components/Animations";
 
 const Home: NextPage = () => {
   return (
@@ -9,6 +10,7 @@ const Home: NextPage = () => {
       <States />
       <Breakpoints />
       <Transitions />
+      <Animations />
     </main>
   );
 };
